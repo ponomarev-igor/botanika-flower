@@ -18,6 +18,7 @@
   /* fonts */
   --fontsize: 16px;
   --fontfamily: "Montserrat", sans-serif;
+  --pd-btn: 30px 70px 30px 70px;
 }
 /* ***************BASIC-SETTING**********************/
 .container {
@@ -68,15 +69,20 @@ body {
 }
 /* ***********************COMPONENTS****************************** */
 .btn {
-  padding: 30px 70px 30px 70px;
+  display: inline-flex;
+  max-width: 290px;
+  padding: var(--pd-btn);
   background-color: var(--color-btn);
   border-radius: 40px;
+  justify-content: center;
+  align-items: center;
 }
 /* ***************************header********************************* */
 .header {
   margin-top: 25px;
   border-top: 1px solid var(--color-text);
   border-bottom: 1px solid var(--color-text);
+  margin-bottom: 5em;
 }
 .header__container {
   min-height: 70px;
@@ -114,4 +120,60 @@ body {
 .nav__list--right {
   padding-left: 50px;
 }
-/* ************************************************************ */
+/* ***********************about************************************* */
+.main__about {
+}
+.about {
+}
+.about__container {
+}
+.container {
+}
+.about__body {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+.about__text {
+  display: flex;
+  flex-direction: column;
+}
+.about__title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 58px;
+  color: var(--color-text);
+  margin-bottom: 24px;
+  max-width: 420px;
+}
+.about__subtitle {
+  max-width: 400px;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--color-text);
+  line-height: 100%;
+  margin-bottom: 60px;
+}
+.about__button {
+}
+.about__image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, auto);
+  gap: 20px;
+}
+
+.about__image img:nth-child(1) {
+  margin-top: 60px;
+}
+
+.about__image img {
+  border-radius: 10px;
+}
+
+/* ***********************about************************************* */
+/* ***********************about************************************* */
+/* ***********************about************************************* */
+/* ***********************about************************************* */
+/* ***********************about************************************* */
+/* ***********************about************************************* */
