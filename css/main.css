@@ -71,6 +71,7 @@ body {
 .btn {
   display: inline-flex;
   max-width: 290px;
+  width: 290px;
   padding: var(--pd-btn);
   background-color: var(--color-btn);
   border-radius: 40px;
@@ -193,27 +194,86 @@ body {
   display: flex;
   justify-content: center;
 }
-.item {
-}
-.item__image {
+
+.item-service__image {
   margin-right: 20px;
 }
-.item__text > *:not(:last-child) {
+.item-service__text > *:not(:last-child) {
   margin-bottom: 8px;
 }
-.item__text {
+.item-service__text {
   color: var(--color-text);
   font-size: var(--fontsize);
 }
-.item__title {
+.item-service__title {
   font-weight: 500;
   line-height: calc(16 / 19 * 100%);
 }
-.item__subtitle {
+.item-service__subtitle {
   font-weight: 400;
   line-height: calc(16 / 13 * 100%);
 }
-/* ***********************about************************************* */
+/* ***********************popular************************************* */
+.main__popular-bouquets {
+}
+.popular-bouquets {
+}
+.popular-bouquets__container {
+  max-width: 800px;
+}
+.container {
+}
+.popular-bouquets__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-bouquets__title {
+  margin-bottom: 2.25rem;
+  color: var(--color-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.popular-bouquets__item {
+  display: flex;
+  flex: 1 1 100%;
+}
+.item-popular {
+}
+.item-popular__text {
+  color: var(--color-text);
+  flex: 0 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.item-popular__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.item-popular__subtitle {
+}
+.item-popular__size {
+}
+.item-popular__price {
+}
+.ite-popular__button {
+  color: #ffffff;
+}
+.btn {
+}
+.item-popular__image {
+  flex: 0 1 50%;
+}
+.popular-bouquets__arrow {
+}
+.arrow-left {
+}
+.arrow-right {
+}
 /* ***********************about************************************* */
 /* ***********************about************************************* */
 /* ***********************about************************************* */
